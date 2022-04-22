@@ -104,6 +104,8 @@ body {
 }
 .show-cart {
   margin-top: 4.92rem; /* this is to avoid the navbar from covering the .show-cart element */
+  position: fixed;
+  z-index: 100;
   width: 18rem;
   padding: 2rem 1.5rem;
   transform: rotateY(-360deg);
